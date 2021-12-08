@@ -5,7 +5,7 @@ btnLogo.addEventListener("mouseover", desenfocar);
 fondo.addEventListener("mouseover", enfocar);
 
 function desenfocar () {
-    fondo.style.filter = "blur(5px)";
+    fondo.style.filter = "blur(4px)";
 }
 
 function enfocar () {

@@ -52,7 +52,7 @@ h4 {
 
 .header-content:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.08);
     transition: all 500ms;
 }
 
@@ -64,14 +64,10 @@ h4 {
     background-size: cover;
     height: 100vh;    
     min-height: 60rem;
-    /*filter: blur(0px);
-    -webkit-filter: blur(5px);*/
     transition: all 500ms;
 }
 
 .landing-header:hover {
-    /*filter: blur(0px);
-    -webkit-filter: blur(0px);*/
     transition: all 500ms;
 }
 
@@ -88,6 +84,12 @@ h4 {
     padding: 2rem 0;
 }
 
+.cuadrito {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
 .logo {
     height: 150px;
     width: 150px;
@@ -97,6 +99,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* 30px 30px 30px or repeat(3, 1fr)*/
     grid-gap: 20px;
+    text-align: center;
 }   
 
 .text-center {
@@ -118,9 +121,10 @@ h4 {
 .img-grano {
     display: inline-block;
     height: 200px;
+    transition: 750ms;
 }
 
-.iconos-granos .container:hover {
+.iconos-granos .container .grano:hover {
     cursor: pointer;
     background-color: blanchedalmond;
     color: black;
@@ -130,8 +134,8 @@ h4 {
 
 .img-grano:hover {
     cursor: pointer;
-    transform: scale(1.5);
-    transition: 1000ms;
+    transform: scale(2) rotate(360deg);
+    transition: 750ms;
 }
 
 footer {
