@@ -43,16 +43,17 @@ h4 {
     top: 10%;
     left: 50%;
     margin-top: 105px;
-    margin-left: -145px;
+    margin-left: -150px; /* Esto es lo que hace que se quede en medio siempre. Tiene que ser la mitad de lo ancho.*/
     width: 300px;
-    height: 350px;
+    height: 400px auto;
     text-align: center;
-    transition: all 1000ms;
+    transition: all 500ms;
 }
 
 .header-content:hover {
     cursor: pointer;
-    transition: all 1000ms;
+    transform: scale(1.1);
+    transition: all 500ms;
 }
 
 .landing-header {
@@ -63,15 +64,15 @@ h4 {
     background-size: cover;
     height: 100vh;    
     min-height: 60rem;
-    filter: blur(0px);
-    -webkit-filter: blur(5px);
-    transition: all 2000ms;
+    /*filter: blur(0px);
+    -webkit-filter: blur(5px);*/
+    transition: all 500ms;
 }
 
 .landing-header:hover {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-    transition: all 1000ms;
+    /*filter: blur(0px);
+    -webkit-filter: blur(0px);*/
+    transition: all 500ms;
 }
 
 .container {
