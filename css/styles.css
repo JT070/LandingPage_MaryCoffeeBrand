@@ -59,8 +59,8 @@ h4 {
     transition: all 500ms;
 }
 
-.landing-header {
-    /*background-color: #2b1407;*/
+/* .landing-header {
+    /*background-color: #2b1407;
     padding: 1rem 0 3rem 0;
     background-image: url(../imgs/cafe-wallpaper-3.png);
     background-position: center center;
@@ -72,7 +72,7 @@ h4 {
 
 .landing-header:hover {
     transition: all 500ms;
-}
+} */
 
 .container {
     max-width: 960px;
