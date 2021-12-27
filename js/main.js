@@ -1,13 +1,25 @@
-btnLogo = document.getElementById("logotipo");
-fondo = document.getElementById("landing-header");
+((d) => {
+    const $btnMenu = d.querySelector(".hamburguesa");
+    const $btnCerrar = d.querySelector(".equis");
+    const $menu = d.querySelector(".menu-list"); 
 
-btnLogo.addEventListener("mouseover", desenfocar);
-fondo.addEventListener("mouseover", enfocar);
+    $btnMenu.addEventListener("click", (e) => {
+        $menu.classList.toggle("nones");
+        $btnMenu.classList.toggle("nones");
+        $btnCerrar.classList.remove("nones");
+    }); 
+    $btnCerrar.addEventListener("click", (e) => {
+        $menu.classList.toggle("nones"); 
+        $btnMenu.classList.remove("nones");
+        $btnCerrar.classList.toggle("nones");
+    });
+    
+    // Delegación de Eventos
+    d.addEventListener("click", (e) => {
+        if (!e.target.matches("#menu-list a")) return false       
+        $menu.classList.add("nones"); 
+        $btnMenu.classList.remove("nones");
+        $btnCerrar.classList.toggle("nones"); 
+    });
 
-function desenfocar () {
-    fondo.style.filter = "blur(4px)";
-}
-
-function enfocar () {
-    fondo.style.filter = "blur(0px)";
-}
+})(document);

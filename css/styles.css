@@ -16,11 +16,12 @@ img {
 }
 
 /*  ----------------------------------    HEADER-------------------------------------*/
+/*      MENU      */
 
 .menu {
     display: flex;
     align-content: center;
-    border: thin solid black;
+    /* border: thin solid black; */
     height: 70px;
     
 }
@@ -32,9 +33,48 @@ img {
     flex-grow: 1;
 }
 
-.menu-icono {
+#menu-icono {
     height: 28px;
 }
+
+.menu-list {
+    background-color: rgb(240, 45, 11);
+    color: white;
+    margin: 0px;
+    list-style: none;
+    width: 100vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    margin: 0;
+    transition: 1000ms;
+}
+
+#menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+} 
+
+#menu-list a:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.nones {
+    display: none;
+}
+
+
+
+
+
 
 .logo {
     height: 33px;
@@ -46,6 +86,13 @@ img {
     align-items: center;
     height: 100%;
 }
+
+
+
+
+
+
+
 
 .hero-img1 {    
     background-image: url("../imgs/hero-cafe-01.png");
