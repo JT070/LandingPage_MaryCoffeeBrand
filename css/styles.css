@@ -1,246 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-body {
-    background: rgba(200, 200, 200, 0.9);
-    margin: 0;
-    color: #fff;
+*, *::after, *::before {
     font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Open Sans', sans-serif;*/
+    box-sizing: border-box;
 }
 
-#logo-mary {
-    height: 200px;
-    border-radius: 100%;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-h3 {
-    padding: 0px;
-    display: block;
-    font-size: 3em;
-    padding-block-start: 1em;
-    padding-block-end: 1em;
-    padding-inline-start: 0px;
-    padding-inline-end: 0px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-h4 {
-    padding: 0px;
-    font-size: 2em;
-    padding-block-start: 0.3em;
-    padding-block-end: 0.3em;
-    padding-inline-start: 0px;
-    padding-inline-end: 0px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+/*  ----------------------------------    HEADER-------------------------------------*/
+
+.menu {
+    display: flex;
+    align-content: center;
+    border: thin solid black;
+    height: 70px;
+    
 }
 
-.header-content {
-    position: absolute;
-    z-index: 1;
-    top: 10%;
-    left: 50%;
-    margin-top: 105px;
-    margin-left: -150px; /* Esto es lo que hace que se quede en medio siempre. Tiene que ser la mitad de lo ancho.*/
-    width: 300px;
-    height: 400px auto;
-    text-align: center;
-    transition: all 500ms;
+.menu span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-.header-content:hover {
-    cursor: pointer;
-    transform: scale(1.08);
-    transition: all 500ms;
-}
-
-/* .landing-header {
-    /*background-color: #2b1407;
-    padding: 1rem 0 3rem 0;
-    background-image: url(../imgs/cafe-wallpaper-3.png);
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;    
-    min-height: 60rem;
-    transition: all 500ms;
-}
-
-.landing-header:hover {
-    transition: all 500ms;
-} */
-
-.container {
-    max-width: 960px;
-    margin: auto;
-    overflow: hidden;
-    padding: 4rem 4rem;
-}
-
-.seccion-nosotros {
-    background-color: #f5fcfd;
-    color: rgb(58, 9, 9);
-    padding: 2rem 0;
-}
-
-.seccion-nosotros h3 {
-    padding-top: 0px;
-}
-
-.cuadrito {
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    transition: all 2000ms;
-}
-
-.cuadrito:hover {
-    cursor: pointer;
-    box-shadow: 0px 2px 10px rgb(180, 235, 235);
-    transition: all 750ms;
+.menu-icono {
+    height: 28px;
 }
 
 .logo {
-    height: 150px;
-    width: 150px;
+    height: 33px;
 }
 
-.grid-3 {
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* 30px 30px 30px or repeat(3, 1fr)*/
-    grid-gap: 20px;
-    text-align: center;
-}   
-
-.text-center {
-    text-align: center;
-    margin: auto;
+.logo-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-.grid-2 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    transition: 750ms;
-}
-
-.tipos-granos {
-    background-color: rgba(15, 2, 2, 0.952);
-    color: whitesmoke;
-}
-
-.img-grano {
-    display: inline-block;
-    height: 200px;
-    transition: 750ms;
-}
-
-.iconos-granos .container .grano:hover {
-    cursor: pointer;
-    background-color: blanchedalmond;
-    color: black;
-    transform: scale(1.05);
-    transition: 750ms;
-}
-
-.img-grano:hover {
-    cursor: pointer;
-    transform: scale(2) rotate(360deg);
-    transition: 750ms;
-}
-
-.contacto {
-    background: url(../imgs/cafe-wallpaper-1.jpg) no-repeat center center fixed;
-    height: auto 600px;
-    /*filter: opacity(0%);*/
+.hero-img1 {    
+    background-image: url("../imgs/hero-cafe-01.png");
     background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 76%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
-.contacto-color {
-    background-color: rgba(32, 22, 8, 0.7);
-    border: 50px 0px;
-}
-
-.grid-2-form {
-    display: grid;
-    grid-gap: 75px;
-    grid-template-columns: repeat(2, 1fr);
-    transition: 750ms;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.caja-form {
-    background: rgba(211, 182, 138, 0.8);
-    color: rgba(255, 255, 255, 0.952);
-    border-radius: 10% 0 10% 0;
-    padding: 0px 45px 45px 45px;
-    text-align: justify;
-    text-shadow: rgb(9, 4, 31) 2px 2px 5px;
-    transition: 400ms;
-}
-
-.caja-form:hover {
-    background: rgb(167, 135, 90);
-    transition: 500ms;
-    cursor: pointer;
-}
-
-.caja-form h4 {
-    margin: 5% 0%;
-}
-
-.caja-form p {
-    font-size: 20px;
-    color: white;
-}
-
-#registro {
+.hero-img-opacity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    height: inherit;
 }
 
-#enviar {
-    height: 40px;
-    background-color: blanchedalmond;
-    /*border: 3px solid #e0e0ff;*/
-    border-radius: 10px;
-    font-weight: bold;
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: thin solid white; */
+    width: 80%;
+    height: 25vh;
 }
 
-#enviar:hover {
-    background-color: rgb(240, 217, 182);
+.hero-text {
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    font-size: medium;
+    font-weight: lighter;
+    /* border: thin solid white; */
+} 
+
+.hero-content .btn {
+    color: white;
+    text-decoration: none;
+    /* margin-top: 100px; */
+    padding: 13px 100px;
+    border: medium solid white;
+    border-radius: 0 0 20px 0;
+}
+
+.hero-content .btn:hover {
     cursor: pointer;
-}
+    background-color: rgba(228, 195, 195, 0.219);
+} 
 
-.redondeado {
-    border-radius: 5px;
-    /*background-color: rgb(253, 255, 231);*/
-    background-color: whitesmoke;
-    height: 32px;
-    width: 100%;
-    min-width: 250px;
-    align-self: center;
-    border: none;
-    margin: 10px 0px;
-    font-size: 20px;
-}
 
-footer {
-    padding: 2.2rem;
-    background-color: white;
-  }
-  
-  footer p {
-    margin: 0;
-    color: black;
-    font-weight: bolder;
-  }
+/*  -----------------------------*/
