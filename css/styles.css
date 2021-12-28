@@ -90,11 +90,10 @@ img {
 
 /* HERO IMGS*/
 
-.hero-img1 {
+/* .hero-img1 {
     background-image: var(--carousel-img-1); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 78%;
     background-attachment: fixed;
     height: 100vh;
 }
@@ -102,7 +101,6 @@ img {
     background-image: var(--carousel-img-2); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 34%;
     background-attachment: fixed;
     height: 100vh;
 }
@@ -110,7 +108,6 @@ img {
     background-image: var(--carousel-img-3); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -7%;
     background-attachment: fixed;
     height: 100vh;
 }
@@ -118,26 +115,25 @@ img {
     background-image: var(--carousel-img-4); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -108%;
     background-attachment: fixed;
     height: 100vh;
-}
+} */
 
-.hero-img-opacity {
+/* .hero-img-opacity {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgba(0, 0, 0, .6);
     height: 100vh;
-    /* border: thin solid white; */
+    border: thin solid white;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border: thin solid white; */
+    border: thin solid white;
     max-width: 75vw;
     height: 25vh;
 }
@@ -148,7 +144,7 @@ img {
     padding: 0;
     font-size: medium;
     font-weight: lighter;
-    /* border: thin solid white; */
+    border: thin solid white;
 }
 
 .btn {
@@ -162,16 +158,16 @@ img {
 .hero-content .btn:hover {
     cursor: pointer;
     background-color: rgba(228, 195, 195, 0.219);
-}
+}*/
 
 /*   CAROUSEL   */
 
 .carousel {
-    /* padding: 2rem auto; */
+    padding: 2rem auto;
     max-width: 100vw;
     text-align: center;
     overflow-x: hidden;
-    /* border: thin solid red; */
+    border: thin solid red;
 }
 
 .carousel input {
@@ -221,8 +217,8 @@ blockquote {
 #slide-2:checked ~.slides-nav label#dot-2,
 #slide-3:checked ~.slides-nav label#dot-3,
 #slide-4:checked ~.slides-nav label#dot-4 {
-    background-color: var(--gray-dark-color);
-}
+    background-color: tomato;
+} */
 
 /*  -----------------------------*/
 /*  SEGUNDA SECCION */
@@ -305,8 +301,8 @@ blockquote {
 
 .s3-img2 {
     /* max-height: 40vh; */
-    max-width: 90vw;
-    margin-right: 50px;
+    max-width: 85vw;
+    /* margin-right: 50px; */
 }
 
 .s3-icono {
