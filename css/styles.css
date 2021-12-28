@@ -91,11 +91,34 @@ img {
 /* HERO IMGS*/
 
 .hero-img1 {
-    /* background-image: url("../imgs/hero-cafe-01.png"); */
-    background-color: hotpink;
+    background-image: var(--carousel-img-1); 
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: 76%; */
+    background-position: 78%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.hero-img2 {
+    background-image: var(--carousel-img-2); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 34%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.hero-img3 {
+    background-image: var(--carousel-img-3); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -7%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.hero-img4 {
+    background-image: var(--carousel-img-4); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -108%;
     background-attachment: fixed;
     height: 100vh;
 }
@@ -182,7 +205,6 @@ img {
 .slide {
     font-size: small;
     min-width: 100vw;
-    /* border: thick dotted blue; */
 }
 
 blockquote {
