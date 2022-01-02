@@ -6,45 +6,45 @@
 }
 
 :root {
-    --carousel-img1-320: url('../imgs/hero-320x450-cafe01.png');
-    --carousel-img2-320: url('../imgs/hero-320x450-gente-01.png');
-    --carousel-img3-320: url('../imgs/hero-320x450-tazas.png');
-    --carousel-img4-320: url('../imgs/hero-320x450-cafe03.png');
+    --carousel-img1-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-cafe01.png');
+    --carousel-img2-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-gente-01.png');
+    --carousel-img3-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-tazas.png');
+    --carousel-img4-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-cafe03.png');
 
-    --carousel-img1-768: url('../imgs/hero-768x900-cafe01.png');
-    --carousel-img2-768: url('../imgs/hero-768x900-gente-01.png');
-    --carousel-img3-768: url('../imgs/hero-768x900-tazas.png');
-    --carousel-img4-768: url('../imgs/hero-768x900-cafe03.png');
+    --carousel-img1-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-768x900-cafe01.png');
+    --carousel-img2-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-768x900-gente-01.png');
+    --carousel-img3-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-768x900-tazas.png');
+    --carousel-img4-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-768x900-cafe03.png');
 
-    --carousel-img1-1080: url('../imgs/hero-1080x650-cafe01.png');
-    --carousel-img2-1080: url('../imgs/hero-1080x650-gente-01.png');
-    --carousel-img3-1080: url('../imgs/hero-1080x650-tazas.png');
-    --carousel-img4-1080: url('../imgs/hero-1080x650-cafe03.png');
+    --carousel-img1-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-1080x650-cafe01.png');
+    --carousel-img2-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-1080x650-gente-01.png');
+    --carousel-img3-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-1080x650-tazas.png');
+    --carousel-img4-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-1080x650-cafe03.png');
 
-    --s2-img-320:  url('../imgs/s2-img-320x450.png');
-    --s2-img-768:  url('../imgs/s2-img-768x900.png');
-    --s2-img-1080: url('../imgs/s2-img-1080x650.png');
+    --s2-img-320:  url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/s2-img-320x450.png');
+    --s2-img-768:  url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/s2-img-768x900.png');
+    --s2-img-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/s2-img-1080x650.png');
 
-    --s4-img1-320: url('../imgs/taza-01-320x450.png');
-    --s4-img2-320: url('../imgs/taza-02-320x450.png');
-    --s4-img3-320: url('../imgs/pareja-320x450.png');
-    --s4-img4-320: url('../imgs/origen-320x450.png');
+    --s4-img1-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/taza-01-320x450.png');
+    --s4-img2-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/taza-02-320x450.png');
+    --s4-img3-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/pareja-320x450.png');
+    --s4-img4-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/origen-320x450.png');
 
-    --s4-img1-768: url('../imgs/taza-01-768x900.png');
-    --s4-img2-768: url('../imgs/taza-02-768x900.png');
-    --s4-img3-768: url('../imgs/pareja-768x900.png');
-    --s4-img4-768: url('../imgs/origen-768x900.png');
+    --s4-img1-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/taza-01-768x900.png');
+    --s4-img2-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/taza-02-768x900.png');
+    --s4-img3-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/pareja-768x900.png');
+    --s4-img4-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/origen-768x900.png');
 
-    --s4-img1-1080: url('../imgs/taza-01-1080x650.png');
-    --s4-img2-1080: url('../imgs/taza-02-1080x650.png');
-    --s4-img3-1080: url('../imgs/pareja-1080x650.png');
-    --s4-img4-1080: url('../imgs/origen-1080x650.png');
+    --s4-img1-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/taza-01-1080x650.png');
+    --s4-img2-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/taza-02-1080x650.png');
+    --s4-img3-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/pareja-1080x650.png');
+    --s4-img4-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/origen-1080x650.png');
 
-    --s5-heroimg-320: url('../imgs/hero-320x450-cafe04.png');
-    --s5-heroimg-768: url('../imgs/hero-768x900-cafe04.png');
-    --s5-heroimg-1080: url('../imgs/hero-1080x650-cafe04.png');
+    --s5-heroimg-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-cafe04.png');
+    --s5-heroimg-768: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-768x900-cafe04.png');
+    --s5-heroimg-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-1080x650-cafe04.png');
 
-    --hero-cafe-1080: url('../imgs/cafe-wallpaper-2.jpg');
+    --hero-cafe-1080: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs//cafe-wallpaper-2.jpg');
 }
 
 body {
