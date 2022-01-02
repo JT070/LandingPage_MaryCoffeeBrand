@@ -6,7 +6,7 @@
 }
 
 :root {
-    --carousel-img1-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-cafe01.png');
+    --carousel-img1-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-cafe01-1.png');
     --carousel-img2-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-gente-01.png');
     --carousel-img3-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-tazas.png');
     --carousel-img4-320: url('https://raw.githubusercontent.com/JT070/LandingPage_MaryCoffeeBrand/Desarrollo/imgs/hero-320x450-cafe03.png');
@@ -204,14 +204,15 @@ img {
 
 .hero-container {
     /* border: medium solid orange; */
-    height: 30%;
-    width: 85vw;
+    /* height: 5%; */
+    /* width: 85vw; */
     display: flex;
     align-items: center;
 }
 
 .hero-content {
-    height: 100%;
+    /* border: medium solid blue; */
+    height: 80%;
     width: 100%;
     display: flex;
     flex-direction: column;
